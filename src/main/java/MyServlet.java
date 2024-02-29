@@ -17,8 +17,7 @@ public class MyServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        // Typically, you would handle POST requests here
-        // For a simple Hello, we'll just do the same as GET
+
         doGet(request, response);
     }
 }
